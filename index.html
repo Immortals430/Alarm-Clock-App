@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />  <!-- google fonts cdn for icons -->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Alarm Clock</title>
+</head>
+<body id="body" class="dark body">
+
+    <!-- nav bar start-->
+    <div id="nav-bar-container" class="dark white">
+        <div id="nav-bar" class="nav-bar" >
+
+            <div onclick="displayPanel('alarm-input-panel')">
+                <span class="material-symbols-outlined" id="alarm" >
+                    alarm
+                </span>
+            </div> 
+
+            <div onclick="displayPanel('ringtone-input')">
+                <span class="material-symbols-outlined" id="change-alarm-tone" >
+                    music_note
+                </span>
+            </div>
+
+            <div id="dark-mode-container" onclick="darkModeToggle()">
+                <span class="material-symbols-outlined" id="dark-mode" >
+                    dark_mode
+                </span>
+                <span class="material-symbols-outlined vhide" id="light-mode">
+                    light_mode
+                </span>
+            </div>
+
+            <div id="ampm-container" onclick="toggleAmPm()">
+                <span id="ampm" class="material-symbols-outlined">
+                    nest_clock_farsight_digital
+                </span>
+                <span id="hr24" class="material-symbols-outlined vhide">
+                    dangerous
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- nav bar end -->
+
+
+
+    <!-- app container start -->
+    <div id="app-container" class="app-container"> 
+        
+        <!-- clock start -->
+        <h1 id="heading">Alarm clock</h1>
+        <div id="clock-container" class="clock-container">
+            <div id="date" class="date"></div> 
+            <br>
+            <b id="time" class="time"></b>
+            <br>
+            <br>
+            <div id="day" class="day"></div>
+        </div>
+        <!-- clock end -->
+        
+
+        <!-- setting panel -->
+        <div id="panel"> 
+
+            <!-- stop alarm start-->
+            <div id="alarm-stop-input" class="alarm-stop-input hide">
+                <input type="button" id="stop-alarm-btn" value="Stop Alarm" onclick="stopAlarm()"> 
+            </div>
+            <!-- stop alarm end -->
+
+            <!-- set alarm and alarm list start -->
+            <div id="alarm-input-panel" class="alarm-input-panel hide">
+                <input type="time" id="set-time-input">
+                <input type="button" id="set-alarm-btn" value="Set Alarm" onclick="setAlarm()">
+            </div>
+            <div id="alarm-list" class="alarm-list hide"></div>
+            <!-- set alarm and alarm list end-->
+
+            <!-- ringtone list start -->
+            <div id="ringtone-input" class="ringtone-input hide">
+                <h2>Select Ringtone for Alarm</h2>
+                <div id="ringtone-list-container">
+                    <div class="ringtone-list">
+                        <div class="flex-grow" onclick="setRingtone(0)">Samsung Ringtone</div>
+                        <span class="material-symbols-outlined" id="samsungCheck">check_circle</span>
+                    </div>
+                    <div class="ringtone-list">
+                        <div class="flex-grow" onclick="setRingtone(1)">Funny Cock Ringtone</div>
+                        <span class="material-symbols-outlined hide" id="funnyCockCheck">check_circle</span>
+                    </div>
+                    <div class="ringtone-list">
+                        <div class="flex-grow" onclick="setRingtone(2)">Beep Ringtone</div>
+                        <span class="material-symbols-outlined hide" id="beepCheck">check_circle</span>
+                    </div>
+                </div>
+            </div>
+            <!-- ringtone list end -->
+      
+    </div>
+    <!-- app container end -->
+    
+      
+  
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

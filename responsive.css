@@ -1,0 +1,19 @@
+@media only screen and (max-width: 760px){
+
+    .app-container{
+        margin: 5rem 1rem 1rem;
+    }
+
+    .clock-container, .alarm-input-panel, .alarm-stop-input, .alarm-list, .ringtone-input, .nav-bar{
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+
+
+
