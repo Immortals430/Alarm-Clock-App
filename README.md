@@ -21,39 +21,37 @@ Link to production site: [Alarm Clock](https://immortals430.github.io/Alarm-Cloc
 ## Screenshots
 
 
-
-
 <p align="center">
-<img src="https://github.com/Immortals430/readme/assets/124674815/ee5198cb-dbba-4fcc-925c-82e9459cbf59" width="468" height="300" />
+<img src="https://github.com/Immortals430/Alarm-Clock-App/assets/124674815/157bf2ca-8038-4ad1-96c7-e919c1822e1f" width="468" height="300" />
 </p>
 
 <br><p align="center"> Select Time to set Alarm. </p><br>
   
 <p align="center">
-<img src="https://github.com/Immortals430/readme/assets/124674815/d5442200-d44e-4779-a94e-bf0c0de3e259" width="468" height="300" />
+<img src="https://github.com/Immortals430/Alarm-Clock-App/assets/124674815/c0ecdb7f-042e-4d61-b182-c7e52808c78f" width="468" height="300" />
 </p>
 
 <br><p align="center"> After setting the alarm, the selected alarm list will appear. The user can delete any alarm time if he wants to. </p><br>
 
 <p align="center">
-<img src="https://github.com/Immortals430/readme/assets/124674815/5a0af745-e263-449a-a7a2-ee17de95657d" width="468" height="300" />
+<img src="https://github.com/Immortals430/Alarm-Clock-App/assets/124674815/0ea02b8d-e7a1-4319-80ed-572b4a6112e7" width="468" height="300" />
 </p>
 
 <br><p align="center"> Window Alert will appear and also Alarm tone will ring if the alarm goes of. </p><br>
 
 <p align="center">
-<img src="https://github.com/Immortals430/readme/assets/124674815/dc67b3a6-eaf5-4b70-83e4-a3c32ec5ab20" width="468" height="300" />
+<img src="https://github.com/Immortals430/Alarm-Clock-App/assets/124674815/30a0741b-615b-4b94-84e5-89955d8b76cf" width="468" height="300" />
 </p>
 
 <br><p align="center"> User can select Alarm tone. </p><br>
 
 <p align="center">
-<img src="https://github.com/Immortals430/readme/assets/124674815/0d822c65-a1f4-4acf-8ad5-187f18122f19" width="468" height="300" />
+<img src="https://github.com/Immortals430/Alarm-Clock-App/assets/124674815/48a5143f-beb8-4078-95c3-5fdab0670be5" width="468" height="300" />
 </p>
 <br><p align="center"> User can toggle dark mode and day mode. </p><br>
   
 <p align="center">
-<img src="https://github.com/Immortals430/readme/assets/124674815/5fdcec66-171e-4663-8601-c538d6699989" width="468" height="300" />
+<img src="https://github.com/Immortals430/Alarm-Clock-App/assets/124674815/ce1b3de7-3727-44ac-ba5d-f2559108f802" width="468" height="300" />
 </p>
 <br><p align="center"> User can toggle Am/Pm and 24hour format. </p><br>
 
@@ -69,6 +67,3 @@ Link to production site: [Alarm Clock](https://immortals430.github.io/Alarm-Cloc
 - How to use and manipulate array data.
 
 - How to create a responsive website using CSS.
-
-
-
